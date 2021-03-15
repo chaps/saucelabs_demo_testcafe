@@ -1,8 +1,8 @@
 import {Selector} from 'testcafe'
 
-class LoginPage {
+class CheckoutInformationPage {
 
     constructor (){
-        
+
     }
 }
