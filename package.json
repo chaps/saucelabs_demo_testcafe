@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chaps/saucelabs_demo_testcafe/issues"
   },
-  "homepage": "https://github.com/chaps/saucelabs_demo_testcafe#readme"
+  "homepage": "https://github.com/chaps/saucelabs_demo_testcafe#readme",
+  "dependencies": {
+    "testcafe": "^1.12.0"
+  }
 }
