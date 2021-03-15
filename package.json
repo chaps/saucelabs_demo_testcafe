@@ -1,0 +1,19 @@
+{
+  "name": "saucelabs_demo_testcafe_assessment1",
+  "version": "1.0.0",
+  "description": "Testcafe demo usage with saucelabs demo page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaps/saucelabs_demo_testcafe.git"
+  },
+  "author": "Ernesto Solis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaps/saucelabs_demo_testcafe/issues"
+  },
+  "homepage": "https://github.com/chaps/saucelabs_demo_testcafe#readme"
+}
