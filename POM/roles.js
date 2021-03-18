@@ -6,7 +6,6 @@ import LoginPage from './pages/login';
 //  https://devexpress.github.io/testcafe/documentation/guides/advanced-guides/authentication.html#create-and-apply-roles
 
 export const standardUser = Role(SUT_URL, async t => {
-    console.log(CREDENTIALS)
     await LoginPage.do_login(
         CREDENTIALS["STANDARD_USER"]["USERNAME"],
         CREDENTIALS["STANDARD_USER"]["PASSWORD"]
