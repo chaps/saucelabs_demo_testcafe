@@ -20,9 +20,6 @@
 - Run tests in all browsers throguh testcafe's all:
 `npm run test_all` or `testcafe all POM/tests`
 
-## Implemented test cases:
-`npm install testcafe-reporter-spec`
-
 
 ### Run particular test cases by test ID example:
 `testcafe chrome POM/tests --test-meta testID=test-0001`
