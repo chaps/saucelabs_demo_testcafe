@@ -1,14 +1,30 @@
 
 # Testcafe Demo 
-
 ## Implements web E2E test cases for: https://www.saucedemo.com/
 
+
+## Instructions:
+- Clone the repo:
+`git clone git@github.com:chaps/saucelabs_demo_testcafe.git`
+- Move into the root of the project's directory e.g.:
+`cd saucelabs_demo_testcafe`
+- install the project's dependencies:
+`npm install .`
+- Copy and fill the env variables for the project:
+`cp .env.template .env`
+- Fill the required variables from the .env file (Credentials are available at: https://www.saucedemo.com/)
+- run tests directly through testcafe:
+`testcafe POM/tests`
+- OR run tests through npm:
+`npm run test_chrome`
+- Run tests in all browsers throguh testcafe's all:
+`npm run test_all` or `testcafe all POM/tests`
 
 ## Implemented test cases:
 `npm install testcafe-reporter-spec`
 
 
-### Run particular test cases example:
+### Run particular test cases by test ID example:
 `testcafe chrome POM/tests --test-meta testID=test-0001`
 
 ### Available test cases:
