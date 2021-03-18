@@ -14,7 +14,7 @@
 `cp .env.template .env`
 - Fill the required variables from the .env file (Credentials are available at: https://www.saucedemo.com/)
 - run tests directly through testcafe:
-`testcafe POM/tests`
+`testcafe chrome POM/tests`
 - OR run tests through npm:
 `npm run test_chrome`
 - Run tests in all browsers throguh testcafe's all:
